@@ -5,6 +5,7 @@ const initialState = {
   email: "",
   password: "",
 };
+
 const Login = () => {
   const [form, setForm] = useState(initialState);
 
@@ -16,33 +17,47 @@ const Login = () => {
     }));
   };
 
-  console.log(form);
-
   const { email, password } = form;
   return (
-    <div>
-      <h2>Login </h2>
-      <form action="">
+    <div className="login_container">
+      <div className="login_header">
+        {" "}
+        <h2>Sign In</h2>
         <div>
-          <label htmlFor="email">Email</label>
-          <input
-            type="email"
-            name="email"
-            value={email}
-            onChange={handleForm}
-          />
+          <h3>
+            {" "}
+            Enter details to signin, dont have an accoount{" "}
+            <span className="signup_text">signup</span>
+          </h3>
         </div>
-        <div>
-          <label htmlFor="password">Password</label>
-          <input
-            type="password"
-            name="password"
-            value={password}
-            onChange={handleForm}
-          />
-        </div>
-        <button >Log In</button>
-      </form>
+      </div>
+      <div>
+        <form action="">
+          <div className="input_wrapper">
+            <label htmlFor="email">Email address</label>
+            <input
+              className="input_email"
+              type="email"
+              name="email"
+              placeholder="example@gmail.com"
+              value={email}
+              onChange={handleForm}
+            />
+          </div>
+          <div className="input_wrapper">
+            <label htmlFor="password">Password</label>
+            <input
+              type="password"
+              className="input_password"
+              name="password"
+              value={password}
+              onChange={handleForm}
+            />
+            <span className="forgot_password">Forgot Password</span>
+          </div>
+          <button>Sign In</button>
+        </form>
+      </div>
     </div>
   );
 };
