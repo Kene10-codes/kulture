@@ -1,0 +1,17 @@
+.navbar_container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav_menu {
+    display: flex;
+    gap: 10px;
+}
+
+
+
+
+h4  {
+    color: #fff;
+}

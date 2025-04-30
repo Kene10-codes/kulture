@@ -4,6 +4,7 @@
   justify-content: center;
   align-items: center;
   height: 100vh;
+
 }
 .signup_header {
   display: flex;
@@ -12,6 +13,7 @@
   align-items: center;
   background-color: #121212;
   padding-bottom: 25px;
+  background-color: #121212;
 }
 h2 {
   color: #fff;
@@ -27,9 +29,8 @@ h2 {
   justify-content: center;
   align-items: center;
 }
-form {
-  margin: 50px 220px 0 220px;
-}
+
+
 form label {
   color: #fff;
   font-size: 16px;
@@ -100,7 +101,7 @@ button {
 }
 
 .input_wrapper {
-  margin: 5px 0;
+  margin: 10px 0;
 }
 
 .asterisk {
