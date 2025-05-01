@@ -1,7 +1,82 @@
 .image_background {
-    background-image: url('../../assets//bg-cover.png');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    width: 500px;
+  background-image: url("../../assets//bg-cover.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  align-items: center;
+  width: 1260px;
+  height: 86vh;
+  text-align: center;
+  padding: 0 250px;
+  margin-bottom: 25px;
+}
+
+h2 {
+  font-size: 36px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.image_head {
+  font-size: 15px;
+  font-weight: 400;
+  letter-spacing: 0.5%;
+  padding: 10px 100px;
+}
+
+.search_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  gap: 15px;
+}
+
+input {
+  background-color: transparent;
+  color: #fff;
+  outline: none;
+  border-color: #fff;
+  border-radius: 5px;
+  border-width: 0.2px;
+  width: 250px;
+  height: 40px;
+  padding: 5px 5px;
+}
+
+input::placeholder {
+  color: #e6e3e3;
+}
+button {
+  background-color: #6600e8;
+  display: flex;
+  color: #fff;
+  width: 200px;
+  height: 40px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  cursor: pointer;
+  text-transform: uppercase;
+  font-size: 14px;
+}
+
+.popular_section,
+.feed_Section {
+    margin: 65px 0;
+}
+.card_head,
+.feed_head {
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 35px;
+}
+.card {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 25px;
 }
