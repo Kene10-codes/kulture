@@ -1,0 +1,68 @@
+.feed_wrapper {
+    display: flex;
+}
+
+.feed_categories{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 10px;
+    background-color: #1B1B1B;
+    padding: 20px 10px;
+    margin-right: 40px;
+}
+
+.feed_genres {
+    padding: 10px;
+}
+
+.feed_card {
+    background-color: #1B1B1B;
+    height: 220px;
+    padding: 20px 25px;
+}
+
+.feed_card span {
+    color: #fff;
+    font-weight: 300;
+}
+
+.feed_card img {
+    height: 130px;
+}
+
+.feed_card h3 {
+    font-size: 18px;
+    font-weight: 600;
+}
+.feed_card .feed_card_header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.feed_card_content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 15px;
+    gap: 15px;
+}
+
+.feed_card .feed_card_singer span,
+span {
+    font-size: 14px;
+}
+
+.feed_card_buy {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 15px;
+}
+
+.feed_card button {
+    width: 105px;
+    text-transform: uppercase;
+    border-radius: 8px;
+}
+

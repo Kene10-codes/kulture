@@ -3,6 +3,7 @@ import Navbar from "../../components/Navbar/Navbar";
 import bgCover from "../../assets/bg-cover.png";
 import PopularCard from "../../components/PopularCard/PopularCard";
 import "./Home.css";
+import FeedCard from "../../components/Feed/FeedCard";
 
 const Home = () => {
   return (
@@ -44,7 +45,7 @@ const Home = () => {
 
       <div className="feed_section">
         <h3 className="feed_head">Feed</h3>
-        
+        <FeedCard />
       </div>
     </div>
   );
