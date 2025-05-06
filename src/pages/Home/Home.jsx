@@ -45,7 +45,55 @@ const Home = () => {
 
       <div className="feed_section">
         <h3 className="feed_head">Feed</h3>
-        <FeedCard />
+        <div className="feed_categories_wrapper">
+          <div>
+            <ul className="feed_categories">
+              <li>Trending Categories</li>
+              <li>Mariam</li>
+              <li>Winfried</li>
+              <li>Winfried</li>
+              <li>Winfried</li>
+              <li>Winfried</li>
+            </ul>
+          </div>
+
+          <div>
+            <ul className="feed_categories">
+              <h3>Popular Producers</h3>
+              <div className="feed_producer">
+                <FaUserAlt size={20} color="#fff" />
+                <span>Mariam</span>
+              </div>
+              <div className="feed_producer">
+                <FaUserAlt size={20} color="#fff" />
+                <span>Mariam</span>
+              </div>
+              <div className="feed_producer">
+                <FaUserAlt size={20} color="#fff" />
+                <span>Mariam</span>
+              </div>
+              <div className="feed_producer">
+                <FaUserAlt size={20} color="#fff" />
+                <span>Mariam</span>
+              </div>
+            </ul>
+          </div>
+        </div>
+        <div>
+          <ul className="feed_genres">
+            <li>All</li>
+            <li>Afro Beats</li>
+            <li>World</li>
+            <li>Juju</li>
+            <select name="" id="">
+              <option>Filter</option>
+              <option>Name</option>
+              <option>Genre</option>
+            </select>
+          </ul>
+
+          <FeedCard />
+        </div>
       </div>
     </div>
   );

@@ -35,6 +35,11 @@ h2 {
   gap: 15px;
 }
 
+.feed_genres {
+  padding: 10px;
+}
+
+
 input {
   background-color: transparent;
   color: #fff;

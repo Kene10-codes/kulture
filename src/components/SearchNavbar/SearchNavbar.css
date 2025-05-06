@@ -1,0 +1,23 @@
+.navbar_container {
+    display: flex;
+
+}
+.logo_container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px
+}
+
+.logo_container img {
+    width: 25px;
+}
+
+.logo_container span {
+    color: #fff;
+    font-size: 16px;
+}
+
+.search_container input {
+    padding: 5px 10px;
+}
