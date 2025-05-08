@@ -4,6 +4,7 @@ import { FaShoppingCart } from "react-icons/fa";
 import { FaFileUpload } from "react-icons/fa";
 import { FaUserAlt } from "react-icons/fa";
 import { IoIosArrowDown } from "react-icons/io";
+import Link from "react-router-dom";
 import Logo from "../../assets/logo.png";
 import "./SearchNavbar.css";
 
@@ -19,8 +20,10 @@ const SearchNavbar = () => {
       </div>
       <div className="nav_menu">
         <div className="menu">
-          <FaHome size={18} color="#fff" />
-          <h4>Home</h4>
+          <Link to={"/Home"}>
+            <FaHome size={18} color="#fff" />
+            <h4>Home</h4>
+          </Link>
         </div>
         <div className="menu">
           <FaShoppingCart size={18} color="#fff" />
