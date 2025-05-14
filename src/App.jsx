@@ -6,12 +6,13 @@ import ForgotPassword from "./pages/ForgorPassword/ForgotPassword";
 import Home from "./pages/Home/Home";
 import Search from "./pages/Search/Search";
 import "./App.css";
+import Upload from "./pages/Upload/Upload";
 
 
 function App() {
   return (
     <div>
-      <Search />
+       <Upload />
     </div>
   );
 }
