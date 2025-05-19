@@ -7,12 +7,13 @@ import Home from "./pages/Home/Home";
 import Search from "./pages/Search/Search";
 import "./App.css";
 import Upload from "./pages/Upload/Upload";
+import UploadMusic from "./pages/Upload-Music/UploadMusic";
 
 
 function App() {
   return (
     <div>
-       <Upload />
+       <UploadMusic />
     </div>
   );
 }
